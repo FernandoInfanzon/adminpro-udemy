@@ -14,6 +14,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
 import { PagesComponent } from './pages/pages.component';
+import { RegisterComponent } from './login/register.component';
 
 
 
@@ -28,7 +29,8 @@ import { PagesComponent } from './pages/pages.component';
     HeaderComponent,
     SidebarComponent,
     BreadcrumbsComponent,
-    PagesComponent
+    PagesComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
