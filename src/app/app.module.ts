@@ -26,7 +26,8 @@ import { RegisterComponent } from './login/register.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    NopagefoundComponent,
+    RegisterComponent,
+    // NopagefoundComponent,
     // DashboardComponent,
     // ProgressComponent,
     // Graficas1Component,
@@ -34,7 +35,6 @@ import { RegisterComponent } from './login/register.component';
     // SidebarComponent,
     // BreadcrumbsComponent,
     // PagesComponent,
-    RegisterComponent
   ],
   imports: [
     BrowserModule,
