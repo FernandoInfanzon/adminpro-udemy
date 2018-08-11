@@ -1,4 +1,3 @@
-
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -15,7 +14,7 @@ import { RegisterComponent } from './login/register.component';
 import { FormsModule } from '@angular/forms';
 
 // Servicios
-import { SettingsService } from './services/settings.service';
+import { ServiceModule } from './services/service.module';
 
 
 
@@ -31,9 +30,10 @@ import { SettingsService } from './services/settings.service';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
-  providers: [SettingsService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
