@@ -5,7 +5,7 @@ import {
   SettingsService,
   SidebarService,
   SharedService
-} from './service.index';
+ } from './service.index';
 
 
 @NgModule({
